@@ -9,6 +9,7 @@ import { StoreModule } from '@ngrx/store';
 import { customerReducer } from './state/customer.reducer';
 import { EffectsModule, Actions, Effect } from '@ngrx/effects';
 import { CustomerEffect } from './state/customer.effects';
+import {FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 const customerRoutes: Routes = [
   { path: '', component: CustomerComponent }
@@ -20,7 +21,10 @@ const customerRoutes: Routes = [
     CommonModule,
     RouterModule.forChild(customerRoutes),
     StoreModule.forFeature('customers',customerReducer),
-    EffectsModule.forFeature([CustomerEffect])
+    EffectsModule.forFeature([CustomerEffect]),
+    FormsModule,
+    ReactiveFormsModule
+
   ]
 })
 export class CustomersModule { }

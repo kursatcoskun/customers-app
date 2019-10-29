@@ -1,18 +1,18 @@
 {
-    "customers": [
-        {
-            "name": "Kürşat Coşkun",
-            "phone": "05444598311",
-            "address": "Eskişehir",
-            "membership": "Platinum",
-            "id": 1
-        },
-        {
-            "name": "Deneme Deneme",
-            "phone": "05443878437",
-            "address": "Tokat",
-            "membership": "Platinum",
-            "id": 1
-        }
-    ]
+  "customers": [
+    {
+      "name": "Deneme Deneme",
+      "phone": "05443878437",
+      "address": "Tokat",
+      "membership": "Pro",
+      "id": 1
+    },
+    {
+      "name": "dfgdf",
+      "phone": "ggdfgdfg",
+      "address": "dfgdfg",
+      "membership": "Basic",
+      "id": 2
+    }
+  ]
 }
